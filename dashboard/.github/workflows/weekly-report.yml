@@ -1,0 +1,46 @@
+
+# .github/workflows/weekly-report.yml
+
+name: Weekly Marketing Report
+
+on:
+  schedule:
+    - cron: '0 8 * * 1'   # Every Monday at 8am UTC
+  workflow_dispatch:        # Also allows manual trigger from GitHub Actions tab
+
+jobs:
+  generate-insights:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - run: npm install
+
+      - run: node scripts/generate-report.js
+        env:
+          ANTHROPIC_API_KEY:        ${{ secrets.ANTHROPIC_API_KEY }}
+          KIT_API_SECRET:           ${{ secrets.KIT_API_SECRET }}
+          META_ACCESS_TOKEN:        ${{ secrets.META_ACCESS_TOKEN }}
+          META_AD_ACCOUNT_ID:       ${{ secrets.META_AD_ACCOUNT_ID }}
+          UNBOUNCE_ACCESS_TOKEN:    ${{ secrets.UNBOUNCE_ACCESS_TOKEN }}
+          UNBOUNCE_REFRESH_TOKEN:   ${{ secrets.UNBOUNCE_REFRESH_TOKEN }}
+          UNBOUNCE_CLIENT_ID:       ${{ secrets.UNBOUNCE_CLIENT_ID }}
+          UNBOUNCE_CLIENT_SECRET:   ${{ secrets.UNBOUNCE_CLIENT_SECRET }}
+          VIMEO_ACCESS_TOKEN:       ${{ secrets.VIMEO_ACCESS_TOKEN }}
+          GA4_PROPERTY_ID:          ${{ secrets.GA4_PROPERTY_ID }}
+          GSC_SITE_URL:             ${{ secrets.GSC_SITE_URL }}
+          GOOGLE_SERVICE_ACCOUNT:   ${{ secrets.GOOGLE_SERVICE_ACCOUNT }}
+
+      - name: Commit new insights
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add public/insights.json
+          git commit -m "Weekly insights: $(date +%Y-%m-%d)" || exit 0
+          git push
