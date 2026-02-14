@@ -1,0 +1,299 @@
+{
+  "weekOf": "2025-02-10",
+  "generatedAt": "2025-02-10T08:12:33.000Z",
+  "weeklyVerdict": "Growth is real but fragile — organic is carrying paid's underperformance this week. Meta CPL crept up 18% to $33 while email list grew by 94 subscribers, the best week in six weeks. The VSL on the DTMCN page needs immediate attention: finish rate dropped to 31%, which directly explains why conversion fell despite traffic holding steady.",
+  "funnelHealth": {
+    "awareness": {
+      "status": "green",
+      "summary": "YouTube up 22% WoW, organic search holding steady with 3 queries breaking into top-5 positions."
+    },
+    "consideration": {
+      "status": "amber",
+      "summary": "Sessions flat, but time-on-site dropped 14% — visitors are landing and leaving faster than last week."
+    },
+    "conversion": {
+      "status": "red",
+      "summary": "DTMCN landing page conversion fell to 2.1% from 3.4% — VSL finish rate collapse is the likely cause."
+    },
+    "retention": {
+      "status": "green",
+      "summary": "Best email open rate in 6 weeks (41.2%), list grew 94 this week — nurture is working."
+    }
+  },
+  "urgentActions": [
+    {
+      "priority": "high",
+      "action": "Audit the DTMCN VSL for drop-off at the 47-second mark",
+      "why": "Vimeo data shows 68% of viewers drop at 0:47. This is the exact moment the pricing section begins. Conversion on that page fell from 3.4% to 2.1% in the same week.",
+      "howTo": "Open Vimeo → Video → Analytics → Engagement graph. Identify what's on screen at 0:47. Likely a price reveal without enough value buildup before it.",
+      "expectedOutcome": "If you add a 15-second value recap before the price, industry benchmarks suggest 20-30% finish rate improvement — which should push conversion back above 3%.",
+      "doBy": "today"
+    },
+    {
+      "priority": "high",
+      "action": "Pause the cold Awareness campaign on Meta and reallocate budget to Retargeting",
+      "why": "Awareness CPL hit $47 vs $28 target — third consecutive week of decline. Retargeting CPL is $19 and improving. You're paying 2.5x more to reach cold audiences who aren't converting.",
+      "howTo": "Meta Ads Manager → Campaigns → 'DTM Awareness - Cold' → Deactivate. Then increase Retargeting daily budget by $85/day (the saved amount).",
+      "expectedOutcome": "Redirects ~$595/week to retargeting where CPL is $19. Should generate ~31 additional leads at same spend.",
+      "doBy": "today"
+    },
+    {
+      "priority": "medium",
+      "action": "Turn the Tuesday VSL email subject line into a Meta ad headline test",
+      "why": "That email hit 41.2% open rate — 2x your average. The subject 'Stop guessing what your clients need' resonated. Same pain-point framing should work as ad copy.",
+      "howTo": "In Meta Ads Manager, duplicate your top-performing ad. Replace headline with: 'Stop guessing what your clients need.' A/B test for 7 days, $20/day budget.",
+      "expectedOutcome": "If open rate uplift transfers, expect CTR improvement of 0.3-0.8% — could reduce CPL by $5-8.",
+      "doBy": "this week"
+    },
+    {
+      "priority": "medium",
+      "action": "Create content around 'marketing system for consultants' — you're on page 2, it's high-intent",
+      "why": "GSC shows this query at position 14 with 340 impressions but only 8 clicks (2.4% CTR). You're one strong post away from page 1.",
+      "howTo": "Write a pillar post targeting 'marketing system for consultants'. Use the exact phrase in H1, URL slug, and first 100 words. Internal link from 3 existing posts.",
+      "expectedOutcome": "Breaking into top 5 positions typically yields 5-10x CTR improvement. At 340 impressions, that's 85-170 additional organic visits/month.",
+      "doBy": "this week"
+    }
+  ],
+  "insights": [
+    {
+      "source": "Cross-channel",
+      "observation": "YouTube video 'How to Build a Marketing System' drove a 34% traffic spike to /marketing-system/ on Thursday",
+      "meaning": "Your YouTube audience is actively searching for implementation resources after watching. They're warm leads by the time they hit your site.",
+      "hypothesis": "The video's CTA directed viewers to the URL. Combined with the video's strong retention (71% finish rate), viewers arrived with high intent.",
+      "recommendation": "Add a content upgrade to /marketing-system/ — a downloadable template or checklist. Capture those warm visitors as subscribers.",
+      "confidence": "high",
+      "effort": "medium",
+      "impact": "high"
+    },
+    {
+      "source": "Kit",
+      "observation": "Tuesday broadcast hit 41.2% open rate and 6.8% CTR — both 2x your 4-broadcast average",
+      "meaning": "The pain-point subject line ('Stop guessing what your clients need') dramatically outperformed your usual benefit-led subjects.",
+      "hypothesis": "Pain-point framing creates urgency. Benefit-framing tells people what they get. Pain-framing tells them what they're currently suffering — and suffering drives opens.",
+      "recommendation": "Test pain-point subjects in next 2 broadcasts. Track whether open rate holds or this was novelty.",
+      "confidence": "high",
+      "effort": "low",
+      "impact": "medium"
+    },
+    {
+      "source": "Vimeo",
+      "observation": "DTMCN VSL finish rate dropped from 58% to 31% this week",
+      "meaning": "Less than a third of viewers are seeing your offer. You're essentially wasting ad spend — people are arriving, starting the video, and leaving before they know what you're selling.",
+      "hypothesis": "The 47-second drop-off point aligns with the pricing reveal. The video likely jumps to price before building sufficient value. Viewers are self-selecting out at sticker shock.",
+      "recommendation": "Add a 'here's what you get' section before the price reveal. Testimonials or case studies between the pitch and the pricing tend to anchor value effectively.",
+      "confidence": "high",
+      "effort": "medium",
+      "impact": "high"
+    },
+    {
+      "source": "GSC",
+      "observation": "3 queries broke into top-5 positions this week: 'small business marketing consultant', 'marketing strategy for small business', 'how to get marketing clients'",
+      "meaning": "These are high-intent, commercially relevant queries. You're now visible to people actively looking for your services.",
+      "hypothesis": "The content refresh on /blog/marketing-consultant-tips/ from 3 weeks ago has indexed and gained authority.",
+      "recommendation": "Update the page's CTA to be more conversion-focused now that it's getting clicks. Add a lead magnet or booking link above the fold.",
+      "confidence": "medium",
+      "effort": "low",
+      "impact": "high"
+    },
+    {
+      "source": "Meta",
+      "observation": "Retargeting campaign CPL dropped to $19 — down from $24 last week and $31 four weeks ago",
+      "meaning": "Your retargeting is in a positive improvement trend. This is rare — most campaigns plateau. Something in the creative or audience is working.",
+      "hypothesis": "The audience list has been refining itself over time. You're now retargeting a higher-quality pool of previous visitors.",
+      "recommendation": "Do not change anything in this campaign. Increase budget instead — this is a proven vehicle at a good price.",
+      "confidence": "high",
+      "effort": "low",
+      "impact": "high"
+    },
+    {
+      "source": "YouTube",
+      "observation": "Average view duration increased to 4:12 from 3:08 last week across all videos",
+      "meaning": "Viewers are staying longer. This signals YouTube's algorithm to push your content to more people.",
+      "hypothesis": "The new intro format (problem statement in first 15 seconds) is reducing early abandonment.",
+      "recommendation": "Keep the new intro format. Consider applying it retroactively in the description/thumbnail of older videos to improve browse discovery.",
+      "confidence": "medium",
+      "effort": "low",
+      "impact": "medium"
+    },
+    {
+      "source": "Unbounce",
+      "observation": "Variant B on the consultant landing page is converting at 5.2% vs Variant A's 3.1% — 67% lift",
+      "meaning": "The headline change ('Get Clients Systematically' vs 'Join the Network') is making a significant difference. Variant B frames the outcome, not the action.",
+      "hypothesis": "Outcome-focused headlines outperform action-focused ones because they answer 'what's in it for me' immediately.",
+      "recommendation": "Declare Variant B the winner and make it the control. This is statistically significant at current traffic levels.",
+      "confidence": "high",
+      "effort": "low",
+      "impact": "high"
+    }
+  ],
+  "doNotTouch": [
+    {
+      "thing": "Meta Retargeting Campaign",
+      "reason": "CPL is $19 and dropping week-over-week for 4 straight weeks. This is a positive trend. Any changes to creative, audience, or bidding risk resetting the optimization.",
+      "metric": "$19 CPL, down 37% over 4 weeks"
+    },
+    {
+      "thing": "Tuesday email send day",
+      "reason": "Three of your top 4 open rates in the last 8 broadcasts have been Tuesday sends. Tuesday is clearly when your list is most engaged.",
+      "metric": "41.2% open rate this week, 38.7% last Tuesday send"
+    },
+    {
+      "thing": "Unbounce Variant B (consultant landing page)",
+      "reason": "67% conversion lift over Variant A. Declare it winner and set it as control — do not run a new test until you understand why B won.",
+      "metric": "5.2% vs 3.1% conversion rate"
+    }
+  ],
+  "watchNextWeek": [
+    {
+      "metric": "Organic traffic to /marketing-system/",
+      "because": "This week's spike may be YouTube-driven (single video). Needs to confirm it's a lasting trend before building content strategy around it.",
+      "threshold": "If it stays above 200 sessions/week for 2 consecutive weeks, treat it as a sustained trend and expand the content cluster."
+    },
+    {
+      "metric": "Kit unsubscribe rate",
+      "because": "Ticked up slightly from 0.1% to 0.18% this week. Not alarming yet, but if it hits 0.3% the list health is degrading.",
+      "threshold": "Act if unsubscribe rate exceeds 0.25% in any single broadcast."
+    },
+    {
+      "metric": "Meta Awareness CPL",
+      "because": "Pausing the campaign today — watch whether total lead volume drops significantly or retargeting absorbs the gap.",
+      "threshold": "If total weekly leads drop below 40 (from current 52), reactivate Awareness at reduced budget."
+    }
+  ],
+  "rawData": {
+    "ga4": {
+      "overview": {
+        "this_week": {
+          "sessions": 4821,
+          "engagedSessions": 2934,
+          "bounceRate": 0.391,
+          "averageSessionDuration": 187.4,
+          "newUsers": 1823,
+          "totalUsers": 3912
+        },
+        "last_week": {
+          "sessions": 4756,
+          "engagedSessions": 3021,
+          "bounceRate": 0.347,
+          "averageSessionDuration": 217.8,
+          "newUsers": 1701,
+          "totalUsers": 3844
+        }
+      },
+      "weekOverWeek": {
+        "sessionsDelta": 1.4,
+        "newUsersDelta": 7.2,
+        "bounceRateDelta": 12.7,
+        "engagementDelta": -2.9
+      },
+      "topPages": [
+        { "path": "/", "title": "Duct Tape Marketing", "sessions": 1203, "engagedSessions": 712, "bounceRate": 0.41, "avgDuration": 142 },
+        { "path": "/blog/marketing-consultant-tips/", "title": "Marketing Consultant Tips", "sessions": 687, "engagedSessions": 498, "bounceRate": 0.27, "avgDuration": 324 },
+        { "path": "/marketing-system/", "title": "The Marketing System", "sessions": 534, "engagedSessions": 401, "bounceRate": 0.31, "avgDuration": 287 },
+        { "path": "/dtmcn/", "title": "Consultant Network", "sessions": 412, "engagedSessions": 298, "bounceRate": 0.38, "avgDuration": 198 },
+        { "path": "/podcast/", "title": "Podcast", "sessions": 334, "engagedSessions": 201, "bounceRate": 0.45, "avgDuration": 167 }
+      ],
+      "channels": {
+        "Organic Search": { "this_week": { "sessions": 2134, "engagedSessions": 1389 }, "last_week": { "sessions": 2098, "engagedSessions": 1412 } },
+        "Direct": { "this_week": { "sessions": 1021, "engagedSessions": 634 }, "last_week": { "sessions": 987, "engagedSessions": 612 } },
+        "Paid Social": { "this_week": { "sessions": 734, "engagedSessions": 412 }, "last_week": { "sessions": 821, "engagedSessions": 489 } },
+        "Email": { "this_week": { "sessions": 612, "engagedSessions": 398 }, "last_week": { "sessions": 534, "engagedSessions": 321 } },
+        "YouTube": { "this_week": { "sessions": 320, "engagedSessions": 101 }, "last_week": { "sessions": 316, "engagedSessions": 187 } }
+      },
+      "daily": [
+        { "date": "20250203", "sessions": 634, "engagedSessions": 389 },
+        { "date": "20250204", "sessions": 712, "engagedSessions": 445 },
+        { "date": "20250205", "sessions": 823, "engagedSessions": 521 },
+        { "date": "20250206", "sessions": 689, "engagedSessions": 412 },
+        { "date": "20250207", "sessions": 743, "engagedSessions": 467 },
+        { "date": "20250208", "sessions": 612, "engagedSessions": 378 },
+        { "date": "20250209", "sessions": 608, "engagedSessions": 322 }
+      ]
+    },
+    "gsc": {
+      "topQueries": [
+        { "key": "duct tape marketing", "clicks": 312, "impressions": 2100, "ctr": 14.9, "position": 1.2, "positionDelta": 0.1 },
+        { "key": "small business marketing consultant", "clicks": 87, "impressions": 1240, "ctr": 7.0, "position": 4.2, "positionDelta": 3.1 },
+        { "key": "marketing strategy for small business", "clicks": 64, "impressions": 980, "ctr": 6.5, "position": 4.8, "positionDelta": 2.7 },
+        { "key": "marketing system for consultants", "clicks": 8, "impressions": 340, "ctr": 2.4, "position": 14.1, "positionDelta": -1.2 },
+        { "key": "how to get marketing clients", "clicks": 43, "impressions": 780, "ctr": 5.5, "position": 4.9, "positionDelta": 4.2 },
+        { "key": "marketing consultant network", "clicks": 29, "impressions": 420, "ctr": 6.9, "position": 3.1, "positionDelta": 0.8 },
+        { "key": "john jantsch marketing", "clicks": 198, "impressions": 890, "ctr": 22.2, "position": 1.8, "positionDelta": 0.2 },
+        { "key": "duct tape marketing podcast", "clicks": 134, "impressions": 720, "ctr": 18.6, "position": 2.1, "positionDelta": 0.1 }
+      ],
+      "risingQueries": [
+        { "key": "how to get marketing clients", "clicks": 43, "impressions": 780, "ctr": 5.5, "position": 4.9, "positionDelta": 4.2 },
+        { "key": "small business marketing consultant", "clicks": 87, "impressions": 1240, "ctr": 7.0, "position": 4.2, "positionDelta": 3.1 },
+        { "key": "marketing strategy for small business", "clicks": 64, "impressions": 980, "ctr": 6.5, "position": 4.8, "positionDelta": 2.7 }
+      ],
+      "opportunities": [
+        { "key": "marketing system for consultants", "clicks": 8, "impressions": 340, "ctr": 2.4, "position": 14.1 },
+        { "key": "fractional cmo for small business", "clicks": 3, "impressions": 210, "ctr": 1.4, "position": 18.3 }
+      ]
+    },
+    "youtube": {
+      "channel": { "name": "Duct Tape Marketing", "subscribers": 48200, "totalViews": 3420000, "videoCount": 312 },
+      "thisWeek": { "views": 8934, "estimatedMinutesWatched": 37423, "averageViewDuration": 252, "subscribersGained": 87, "subscribersLost": 12 },
+      "lastWeek": { "views": 7312, "estimatedMinutesWatched": 28934, "averageViewDuration": 188, "subscribersGained": 61, "subscribersLost": 18 },
+      "weekOverWeek": { "viewsDelta": 22.2, "watchTimeDelta": 29.3, "avgDurationDelta": 34.0, "subscriberNetThis": 75, "subscriberNetLast": 43 },
+      "topVideos": [
+        { "videoId": "abc123", "title": "How to Build a Marketing System", "views": 2134, "watchMinutes": 9821, "avgViewDuration": 252, "avgViewPercentage": 71 },
+        { "videoId": "def456", "title": "The 7-Step Marketing Strategy", "views": 1823, "watchMinutes": 7234, "avgViewDuration": 198, "avgViewPercentage": 58 },
+        { "videoId": "ghi789", "title": "How to Get Consulting Clients Fast", "views": 1412, "watchMinutes": 5934, "avgViewDuration": 201, "avgViewPercentage": 63 },
+        { "videoId": "jkl012", "title": "Marketing Consultant Pricing Guide", "views": 987, "watchMinutes": 3421, "avgViewDuration": 167, "avgViewPercentage": 47 },
+        { "videoId": "mno345", "title": "Referral Marketing System", "views": 812, "watchMinutes": 2934, "avgViewDuration": 172, "avgViewPercentage": 49 }
+      ]
+    },
+    "meta": {
+      "thisWeek": { "spend": 1247.82, "impressions": 89234, "leads": 38, "costPerLead": 32.84, "ctr": 1.87, "cpm": 13.98, "cpc": 1.21 },
+      "lastWeek": { "spend": 1189.40, "impressions": 91023, "leads": 43, "costPerLead": 27.66, "ctr": 2.01, "cpm": 13.07, "cpc": 1.09 },
+      "weekOverWeek": { "spendDelta": 4.9, "impressionsDelta": -1.9, "leadsDelta": -11.6, "costPerLeadDelta": 18.8, "ctrDelta": -6.9, "cpmDelta": 6.9 },
+      "campaigns": [
+        { "campaignName": "DTM Retargeting - DTMCN", "spend": 432.10, "impressions": 18234, "leads": 23, "costPerLead": 18.79, "ctr": 2.87 },
+        { "campaignName": "DTM Awareness - Cold", "spend": 592.80, "impressions": 52340, "leads": 12, "costPerLead": 49.40, "ctr": 1.12 },
+        { "campaignName": "DTM Retargeting - Blog", "spend": 222.92, "impressions": 18660, "leads": 3, "costPerLead": 74.31, "ctr": 1.67 }
+      ]
+    },
+    "kit": {
+      "subscribers": { "active": 14823, "total": 15412, "newThisWeek": 94 },
+      "averages": { "openRate": 24.1, "clickRate": 3.4, "unsubscribeRate": 0.14 },
+      "recentBroadcasts": [
+        { "id": "b001", "subject": "Stop guessing what your clients need", "publishedAt": "2025-02-04T14:00:00Z", "recipientCount": 14823, "openRate": 41.2, "clickRate": 6.8, "unsubscribeRate": 0.18 },
+        { "id": "b002", "subject": "The referral system that never fails", "publishedAt": "2025-01-28T14:00:00Z", "recipientCount": 14729, "openRate": 26.4, "clickRate": 3.1, "unsubscribeRate": 0.11 },
+        { "id": "b003", "subject": "Why most marketing systems break down", "publishedAt": "2025-01-21T14:00:00Z", "recipientCount": 14681, "openRate": 23.8, "clickRate": 2.9, "unsubscribeRate": 0.12 },
+        { "id": "b004", "subject": "Your 7-touchpoint checklist", "publishedAt": "2025-01-14T14:00:00Z", "recipientCount": 14612, "openRate": 19.8, "clickRate": 2.2, "unsubscribeRate": 0.14 }
+      ]
+    },
+    "unbounce": {
+      "topPages": [
+        { "pageName": "DTMCN Landing Page", "url": "https://dtmcn.com", "thisWeek": { "visitors": 412, "conversionRate": 2.1, "conversions": 9 }, "lastWeek": { "visitors": 389, "conversionRate": 3.4, "conversions": 13 }, "conversionDelta": -38.2 },
+        { "pageName": "Free Guide Download", "url": "https://ducttapemarketing.com/guide", "thisWeek": { "visitors": 287, "conversionRate": 18.4, "conversions": 53 }, "lastWeek": { "visitors": 231, "conversionRate": 16.9, "conversions": 39 }, "conversionDelta": 8.9 },
+        { "pageName": "Strategy Session Book", "url": "https://ducttapemarketing.com/strategy", "thisWeek": { "visitors": 198, "conversionRate": 7.6, "conversions": 15 }, "lastWeek": { "visitors": 212, "conversionRate": 8.1, "conversions": 17 }, "conversionDelta": -6.2 }
+      ],
+      "activeABTests": [
+        { "pageName": "Consultant Landing Page", "variants": [
+          { "variantId": "v-b", "visitors": 203, "conversionRate": 5.2, "conversions": 11 },
+          { "variantId": "v-a", "visitors": 198, "conversionRate": 3.1, "conversions": 6 }
+        ]}
+      ],
+      "averageConversionRate": 9.4
+    },
+    "vimeo": {
+      "totals": { "totalPlays": 734, "totalWatchMinutes": 3421, "avgFinishRate": 41.2 },
+      "topVideos": [
+        {
+          "id": "v001", "title": "DTMCN VSL - Join the Network",
+          "thisWeek": { "plays": 412, "finishRate": 31.0, "playRate": 68.2, "watchMinutes": 1823 },
+          "lastWeek": { "plays": 389, "finishRate": 58.0, "playRate": 71.4, "watchMinutes": 2134 },
+          "engagement": { "25pct": 81.2, "50pct": 64.3, "75pct": 38.1, "90pct": 28.4, "biggestDropSeconds": 47, "biggestDropPct": 24.3 }
+        },
+        {
+          "id": "v002", "title": "Marketing System Overview",
+          "thisWeek": { "plays": 322, "finishRate": 58.0, "playRate": 74.1, "watchMinutes": 1598 },
+          "lastWeek": { "plays": 298, "finishRate": 52.3, "playRate": 69.8, "watchMinutes": 1321 },
+          "engagement": { "25pct": 89.1, "50pct": 76.4, "75pct": 61.2, "90pct": 48.3, "biggestDropSeconds": 212, "biggestDropPct": 8.1 }
+        }
+      ]
+    }
+  }
+}
